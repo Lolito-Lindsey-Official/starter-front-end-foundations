@@ -28,7 +28,7 @@ h3 {
 
 .group {
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: center;
 }
 
 .item {
