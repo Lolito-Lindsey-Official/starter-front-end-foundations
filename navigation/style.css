@@ -1,3 +1,49 @@
 body {
   margin: 0;
 }
+
+header {
+  background-color: #000;
+    /* Adds 40 pixels of space under the header
+     so that the main content isn't so close
+     to the navigation. */
+  margin-bottom: 40px;
+}
+
+header h1 {
+  color:#fff;
+  text-align: center;
+  /* Removes the default margin and spacing around the `h1` element. */
+  margin: 0;
+  /* Pushes the text down 20 pixels from the top of the page. */
+  padding-top: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+   /*
+    Removes the default padding to the left of the
+    unordered list.
+  */
+  padding-left: 0;
+  list-style: none;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+    /* Applies 30 pixels of margin to the right of each link 
+     creating a visual gap between the navigation links. */
+  margin: 0 30px 0 0;
+}
+
+header nav ul li:last-child a {
+  /* Removes the margin to the right of the last anchor tag 
+     so that the nav appears centered. */
+  margin-right: 0;
+}
